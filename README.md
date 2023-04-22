@@ -5,6 +5,14 @@ This is a Python script that generates math practice problems for addition and s
 
 1. Clone this repository to your local machine.
 
+```bash
+git clone https://github.com/githuberuser/Math-Practice-Generator-Addition-and-Subtraction-Questions-.git
+```
+then
+```bash
+cd Math-Practice-Generator-Addition-and-Subtraction-Questions-/
+```
+
 2. Install Python 3.x.
 
 3. Install the required packages by running the following command in your terminal:
@@ -16,6 +24,7 @@ or
 ```bash
 pip3 install -r requirements.txt
 ```
+
 4. Run the script by running the following command in your terminal:
 ```bash
 python addsub.py
@@ -24,6 +33,7 @@ or
 ```bash
 python3 addsub.py
 ```
+
 5. Once you see a result like the one below, it means that the PDF file has been generated and saved. 
 ```bash
 Done, saved at: /Users/acoolguy/Documents/Add_Sub_Practice
