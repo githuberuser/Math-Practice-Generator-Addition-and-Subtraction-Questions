@@ -12,9 +12,17 @@ This is a Python script that generates math practice problems for addition and s
 ```bash
 pip install -r requirements.txt
 ```
+or
+```bash
+pip3 install -r requirements.txt
+```
 4. Run the script by running the following command in your terminal:
 ```bash
-python math_practice_generator.py
+python addsub.py
+```
+or 
+```bash
+python3 addsub.py
 ```
 5. Once you see a result like the one below, it means that the PDF file has been generated and saved. 
 ```bash
