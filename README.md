@@ -20,3 +20,8 @@ python math_practice_generator.py
 ```bash
 Done, saved at: /Users/acoolguy/Documents/Add_Sub_Practice
 ```
+  
+## Final Result (PDF File)
+![ ](https://github.com/githuberuser/Math-Practice-Generator-Addition-and-Subtraction-Questions-/raw/main/1.png)
+
+![ ](https://github.com/githuberuser/Math-Practice-Generator-Addition-and-Subtraction-Questions-/raw/main/22.png)
