@@ -1,8 +1,8 @@
 # Math Practice Generator Addition and Subtraction Questions
 
-This is a Python script that generates math practice problems for addition and subtraction. It can be used by students or teachers to create customizable worksheets for math practice. 
+This is a Python script that generates math practice problems for addition and subtraction. It can be used by students or teachers to create customizable worksheets for math practice. (<span style="color:red">If you would like me to incorporate any specific features, kindly leave a comment under the "Issue" section.</span>)
 
-<span style="color:red">If you would like me to incorporate any specific features, kindly leave a comment under the "Issue" section.</span>
+
 ## Getting Started
 
 1. Clone this repository to your local machine.
