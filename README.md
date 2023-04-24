@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 ```
 
 4. Run the script by running the following command in your terminal:
-### With the User Interface
+###### With the User Interface
 ```bash
 python addsub.py
 ```
@@ -36,7 +36,7 @@ or
 ```bash
 python3 addsub.py
 ```
-### With the Terminal
+###### With the Terminal
 ```bash
 python GUI.py
 ```
@@ -46,12 +46,12 @@ python3 GUI.py
 ```
 
 5. Once you see a result like the one below, it means that the PDF file has been generated and saved. 
-### With the User Interface
+###### With the User Interface
 ```bash
 Successfully Generated!
 PDF file has been saved at: /Users/Math-Practice-Generator-Addition-and-Subtraction-Questions
 ```
-### With the Terminal
+###### With the Terminal
 ```bash
 Done, saved at: /Users/acoolguy/Documents/Add_Sub_Practice
 ```
