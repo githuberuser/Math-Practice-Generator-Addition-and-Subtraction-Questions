@@ -1,8 +1,8 @@
-# Math Practice Generator (Addition and Subtraction Questions)
 import datetime
-from fpdf import FPDF
 import os
 import random
+from fpdf import FPDF
+from PyQt5 import QtWidgets
 
 class MathBook:
     def __init__(self):
@@ -25,7 +25,6 @@ class MathBook:
             self.answers.append(str(answer))
 
     def create_pdf(self):
-
         self.generate_questions()
         self.generate_answers()
 
@@ -50,9 +49,30 @@ class MathBook:
         file_path = os.path.join(os.getcwd(), "{} practice.pdf".format(self.date))
         pdf.output(file_path)
 
-book = MathBook()
+class MathBookGUI(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()
 
-book.create_pdf()
+        self.setWindowTitle('Math Practice Generator')
+        self.setGeometry(100, 100, 400, 200)
 
-print('Done, saved at:',os.getcwd())
+        self.title_label = QtWidgets.QLabel('Click the button below to generate a PDF file!', self)
+        self.title_label.setGeometry(50, 50, 300, 50)
 
+
+        self.generate_button = QtWidgets.QPushButton('Generate PDF', self)
+        self.generate_button.setGeometry(125, 125, 150, 50)
+
+        self.generate_button.clicked.connect(self.generate_pdf)
+
+
+    def generate_pdf(self):
+        book = MathBook()
+        book.create_pdf()
+        QtWidgets.QMessageBox.about(self, "Message", "Successfully Generated!\nPDF file has been saved at: {}".format(os.getcwd()))
+
+if __name__ == '__main__':
+    app = QtWidgets.QApplication([])
+    math_book_gui = MathBookGUI()
+    math_book_gui.show()
+    app.exec_()
