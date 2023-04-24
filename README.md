@@ -28,6 +28,8 @@ pip3 install -r requirements.txt
 ```
 
 4. Run the script by running the following command in your terminal:
+
+
 **With the User Interface**
 ```bash
 python addsub.py
@@ -46,6 +48,8 @@ python3 GUI.py
 ```
 
 5. Once you see a result like the one below, it means that the PDF file has been generated and saved. 
+
+
 **With the User Interface**
 ```bash
 Successfully Generated!
